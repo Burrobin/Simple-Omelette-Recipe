@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+body {
+    background: #f3e6d8;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 700px;
+    background: white;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 25px;
+    color: #854632;
+}
+
+.subtitle {
+    color: #5b5b5b;
+    font-size: 15px;
+}
+
+.prep-box {
+    background: #fff7fc;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.prep-box h3 {
+    color: #7b3057;
+    margin-top: 0;
+}
+
+ul.list, ol.list {
+    padding-left: 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.num li strong {
+    color: #854632;
+}
+
+.nutrition {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.nutrition td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition .value {
+    color: #854632;
+    font-weight: 700;
+}
