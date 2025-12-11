@@ -1,78 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
-
 body {
-    background: #f3e6d8;
-    font-family: "Outfit", sans-serif;
+    font-family: "Geom", sans-serif;
+    background-color: #f3e0e2;
+}
+
+* {
     margin: 0;
-    padding: 40px 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    width: 60%;
-    max-width: 700px;
-    background: white;
-    margin: auto;
-    padding: 25px;
-    border-radius: 15px;
+.form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.hero-img {
-    width: 100%;
-    border-radius: 12px;
+main {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 10px 10px 42px #000000c0;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-h1 {
-    font-size: 32px;
+main>* {
+    flex-basis: 100%;
+
+}
+
+.login-form {
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.login-form-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    border: 2px solid #fff;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 70%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+
+}
+
+form a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.379);
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #FF4B2B;
+    width: 17%;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-text {
+    background-image: linear-gradient(to right, #ff000d, #FF416A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.text p {
+    color: #fff;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
-h2 {
-    margin-top: 25px;
-    color: #854632;
+.text {
+    padding: 2rem;
 }
 
-.subtitle {
-    color: #5b5b5b;
-    font-size: 15px;
-}
 
-.prep-box {
-    background: #fff7fc;
-    padding: 15px 20px;
-    border-radius: 10px;
-    margin-top: 25px;
-}
 
-.prep-box h3 {
-    color: #7b3057;
-    margin-top: 0;
-}
 
-ul.list, ol.list {
-    padding-left: 20px;
-}
-
-.list li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-.num li strong {
-    color: #854632;
-}
-
-.nutrition {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
-
-.nutrition td {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.nutrition .value {
-    color: #854632;
-    font-weight: 700;
-}
